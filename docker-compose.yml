@@ -1,0 +1,6 @@
+services:
+  voice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: voice
